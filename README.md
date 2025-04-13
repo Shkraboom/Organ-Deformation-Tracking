@@ -16,7 +16,7 @@ The initial frame for dynamic snapping and tracking:
 ## Initial data
 - Video clip of endoscopic surgery:
 
-![surgery.mp4](data/surgery.gif)
+![surgery.gif](data/surgery.gif)
 - 3D model of the organ in OBJ format
 - 3D scene: camera and organ matched by the first frame of the video (formats FBX, GLB)
 - [Scientific publication: review of methods for tracking and deforming organs in the context of augmented reality](https://arxiv.org/abs/2408.02713)
@@ -31,3 +31,5 @@ into account:
 compared with the image throughout the operation
 
 ## Decision
+
+![surgery_output.gif](data/surgery_output.gif)
