@@ -10,4 +10,24 @@ especially considering:
 - interactions with surgical instruments (contact, pressure, displacement
 of tissues)
 
-![frame.png](https://github.com/Shkraboom/Organ-Deformation-Tracking/blob/main/data/frame.png)
+The initial frame for dynamic snapping and tracking:
+
+![frame.png](data/frame.png)
+## Initial data
+- Video clip of endoscopic surgery:
+
+![surgery.mp4](data/surgery.gif)
+- 3D model of the organ in OBJ format
+- 3D scene: camera and organ matched by the first frame of the video (formats FBX, GLB)
+- [Scientific publication: review of methods for tracking and deforming organs in the context of augmented reality](https://arxiv.org/abs/2408.02713)
+
+## Task
+- Implement a method for dynamically linking a 3D model to an organ in a video, taking
+into account:
+    - endoscope displacements and rotations
+    - the movements of the organ itself
+    - local deformation of the model in contact with a surgical instrument
+- Provide visualization in the form of a video in which the 3D model of the organ is correctly
+compared with the image throughout the operation
+
+## Decision
