@@ -9,4 +9,5 @@ especially considering:
 - mobility and deformity of the organ
 - interactions with surgical instruments (contact, pressure, displacement
 of tissues)
+
 ![frame.png](https://github.com/Shkraboom/Organ-Deformation-Tracking/blob/main/data/frame.png)
